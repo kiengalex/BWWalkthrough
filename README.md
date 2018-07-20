@@ -1,4 +1,4 @@
-<p align="center" >
+<p align="center">  
 <img src="http://www.thinkandbuild.it/gifs/bwwalkthrough.png" width="200"/>
 </p>
 <br>
