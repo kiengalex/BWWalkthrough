@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		233C8817DDEA4941889FD1F3 /* libPods-BWWalkthrough.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09EFD2314D32532CE1F78BD5 /* libPods-BWWalkthrough.a */; };
 		584E4A2B1DEEA97800356166 /* BWWalkthroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584E4A291DEEA97800356166 /* BWWalkthroughPageViewController.swift */; };
 		584E4A2C1DEEA97800356166 /* BWWalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584E4A2A1DEEA97800356166 /* BWWalkthroughViewController.swift */; };
 		584E4A2F1DEEB61000356166 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584E4A2D1DEEB61000356166 /* Main.storyboard */; };
@@ -18,6 +19,9 @@
 		587091861DEE388C00AE725C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587091851DEE388C00AE725C /* AppDelegate.swift */; };
 		587091901DEE388C00AE725C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5870918E1DEE388C00AE725C /* LaunchScreen.storyboard */; };
 		587091971DEE38A100AE725C /* BWWalkthrough.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 587091741DEE386E00AE725C /* BWWalkthrough.framework */; };
+		FAEFB6BD2102BAD60033E0DC /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEFB6BC2102BAD60033E0DC /* SignUp.storyboard */; };
+		FAEFB6BF2106651B0033E0DC /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FAEFB6BE2106651B0033E0DC /* Podfile */; };
+		FAFDCA682107AD9C00C69681 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFDCA672107AD9C00C69681 /* SignUp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09EFD2314D32532CE1F78BD5 /* libPods-BWWalkthrough.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWWalkthrough.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		107E635E47AB5C44305E52A3 /* Pods-BWWalkthrough.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWWalkthrough.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWWalkthrough/Pods-BWWalkthrough.release.xcconfig"; sourceTree = "<group>"; };
+		1848F6A38CEBC0553867A37C /* Pods-BWWalkthrough.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWWalkthrough.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWWalkthrough/Pods-BWWalkthrough.debug.xcconfig"; sourceTree = "<group>"; };
 		584E4A291DEEA97800356166 /* BWWalkthroughPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWWalkthroughPageViewController.swift; sourceTree = "<group>"; };
 		584E4A2A1DEEA97800356166 /* BWWalkthroughViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWWalkthroughViewController.swift; sourceTree = "<group>"; };
 		584E4A2D1DEEB61000356166 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -45,6 +52,9 @@
 		587091851DEE388C00AE725C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5870918F1DEE388C00AE725C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		587091911DEE388C00AE725C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAEFB6BC2102BAD60033E0DC /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		FAEFB6BE2106651B0033E0DC /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		FAFDCA672107AD9C00C69681 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				233C8817DDEA4941889FD1F3 /* libPods-BWWalkthrough.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +77,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C106FBD1C53AAEDF9F48773 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1848F6A38CEBC0553867A37C /* Pods-BWWalkthrough.debug.xcconfig */,
+				107E635E47AB5C44305E52A3 /* Pods-BWWalkthrough.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5870916A1DEE386E00AE725C = {
 			isa = PBXGroup;
 			children = (
+				FAEFB6BE2106651B0033E0DC /* Podfile */,
 				587091761DEE386E00AE725C /* BWWalkthrough */,
 				587091841DEE388C00AE725C /* Example */,
 				587091751DEE386E00AE725C /* Products */,
+				3C106FBD1C53AAEDF9F48773 /* Pods */,
+				7450593CFAD8DE0A2D3E284F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +124,23 @@
 				587091851DEE388C00AE725C /* AppDelegate.swift */,
 				584E4A331DEEB66200356166 /* CustomPageViewController.swift */,
 				584E4A351DEEB67000356166 /* ViewController.swift */,
+				FAFDCA672107AD9C00C69681 /* SignUp.swift */,
 				584E4A311DEEB63B00356166 /* Images.xcassets */,
 				584E4A2D1DEEB61000356166 /* Main.storyboard */,
 				584E4A2E1DEEB61000356166 /* Walkthrough.storyboard */,
+				FAEFB6BC2102BAD60033E0DC /* SignUp.storyboard */,
 				5870918E1DEE388C00AE725C /* LaunchScreen.storyboard */,
 				587091911DEE388C00AE725C /* Info.plist */,
 			);
 			path = Example;
+			sourceTree = "<group>";
+		};
+		7450593CFAD8DE0A2D3E284F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09EFD2314D32532CE1F78BD5 /* libPods-BWWalkthrough.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,10 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5870917C1DEE386E00AE725C /* Build configuration list for PBXNativeTarget "BWWalkthrough" */;
 			buildPhases = (
+				835784E853E16E724239117E /* [CP] Check Pods Manifest.lock */,
 				5870916F1DEE386E00AE725C /* Sources */,
 				587091701DEE386E00AE725C /* Frameworks */,
 				587091711DEE386E00AE725C /* Headers */,
 				587091721DEE386E00AE725C /* Resources */,
+				54BAAD6EA1A0FE5F5A13DF68 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +249,57 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAEFB6BF2106651B0033E0DC /* Podfile in Resources */,
 				584E4A2F1DEEB61000356166 /* Main.storyboard in Resources */,
 				584E4A321DEEB63B00356166 /* Images.xcassets in Resources */,
 				584E4A301DEEB61000356166 /* Walkthrough.storyboard in Resources */,
 				587091901DEE388C00AE725C /* LaunchScreen.storyboard in Resources */,
+				FAEFB6BD2102BAD60033E0DC /* SignUp.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54BAAD6EA1A0FE5F5A13DF68 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BWWalkthrough/Pods-BWWalkthrough-resources.sh",
+				"${PODS_ROOT}/GTMOAuth2/Source/Touch/GTMOAuth2ViewTouch.xib",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GTMOAuth2ViewTouch.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWWalkthrough/Pods-BWWalkthrough-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		835784E853E16E724239117E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BWWalkthrough-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5870916F1DEE386E00AE725C /* Sources */ = {
@@ -238,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				584E4A361DEEB67000356166 /* ViewController.swift in Sources */,
+				FAFDCA682107AD9C00C69681 /* SignUp.swift in Sources */,
 				587091861DEE388C00AE725C /* AppDelegate.swift in Sources */,
 				584E4A341DEEB66200356166 /* CustomPageViewController.swift in Sources */,
 			);
@@ -366,6 +445,7 @@
 		};
 		5870917D1DEE386E00AE725C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1848F6A38CEBC0553867A37C /* Pods-BWWalkthrough.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -388,6 +468,7 @@
 		};
 		5870917E1DEE386E00AE725C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 107E635E47AB5C44305E52A3 /* Pods-BWWalkthrough.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";

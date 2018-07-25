@@ -25,6 +25,15 @@ class ViewController: UIViewController, BWWalkthroughViewControllerDelegate {
             userDefaults.set(true, forKey: "walkthroughPresented")
             userDefaults.synchronize()
         }
+        else
+        {
+            let stb = UIStoryboard(name: "SignUp", bundle: nil)
+            let signup = stb.instantiateViewController(withIdentifier: "signup") as! UIViewController
+            
+            let appDelegate = UIApplication.shared.delegate as! AppDelegate
+            appDelegate.window?.rootViewController = signup;
+
+        }
     }
     
     override func didReceiveMemoryWarning() {
